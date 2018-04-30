@@ -1,6 +1,6 @@
 # smartToll_server
 <h1>Smart Toll</h1>
-<p>This project showcases a simple interconnectivity among a server, a mobile application and a hardware. The mobile application (android) majorly deals with user input and exchanges data with the server (PHP). The server inturn publishes data onto the mqtt channel. The hardware (raspberry pi 3) is connected to the same mqtt channel and depending on the message sent over the channel does specific operation.<p>
+<p>This project showcases a simple inter-connectivity among a server, a mobile application and a hardware. The mobile application (android) majorly deals with user input and exchanges data with the server (PHP). The server in turn publishes data onto the mqtt channel. The hardware (raspberry pi 3) is connected to the same mqtt channel and depending on the message sent over the channel does specific operation.<p>
 
 <h3>Proposed Working Principle:</h3>
 <p>Consider a metro station with tollbooth. Commutators scan a QR Code on the tollbooth which unlocks the toll gate. The travel through the metro and once they reach the destination station, they scan the QR Code on the toll booth again to unlock the gate. The transaction not only gets recorded but the entire process requires no physical exchange of money. <p>
@@ -25,9 +25,9 @@
 
 <h3>Repositories:</h3>
 <ul>
-  <li><b>Android (Mobile Application)</b> - </li>
+  <li><b>Android (Mobile Application)</b> - https://github.com/iamsandeepkhan/smartToll_app</li>
   <li><b>PHP (Server)</b> - https://github.com/iamsudiptasaha/smartToll_server</li>
-  <li><b>Raspberry pi (Hardware)</b> - </li>
+  <li><b>Raspberry pi (Hardware)</b> - https://github.com/iamsudiptasaha/smartToll_hardware</li>
 </ul>
     
  <h3>About this repository:</h3>
@@ -126,15 +126,4 @@
     </p>
   </li>
 </ul>
-
-
-
-
-
-
-
-
-
-
-
 
