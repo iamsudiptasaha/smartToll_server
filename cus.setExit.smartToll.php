@@ -86,17 +86,12 @@ if(isset($_POST['username']) && isset($_POST['tourid']) && isset($_POST['station
            $successvalue='true';
            $errorCode='null';
 
-          //Use details of your MQTT client
-           /*$server = "m23.cloudmqtt.com";     // change if necessary
-           $port = 10799;                     // change if necessary
-           $username = "pzudsxkz";                   // set your username
-           $password = "0U94xMf24_Uz";                   // set your password
-           $client_id = "phpMQTT-publisher"; // make sure this is unique for connecting to sever - you could use uniqid()
+           //Use details of your MQTT client
+           /*$server = "...";     // change if necessary
+           $port = ...;                     // change if necessary
+           $username = "...";                   // set your username
+           $password = "...";                   // set your password
            */
-           $server = "broker.hivemq.com";     // change if necessary
-           $port = 1883;                     // change if necessary
-           $username = "pzudsxkz";                   // set your username
-           $password = "0U94xMf24_Uz";
            $client_id = "phpMQTT-publisher"; // make sure this is unique for connecting to sever - you could use uniqid()
 
            $mqtt = new phpMQTT($server, $port, $client_id);
